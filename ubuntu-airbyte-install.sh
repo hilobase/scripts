@@ -1,6 +1,6 @@
 #!usr/bin/bash
 
-BASE_URL=https://raw.githubusercontent.com/airbytehq/airbyte/master/
+BASE_URL=https://raw.githubusercontent.com/airbytehq/airbyte/master
 
 mkdir airbyte
 
