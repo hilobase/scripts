@@ -1,3 +1,4 @@
 #!usr/bin/bash
 
-curl -s -L https://raw.githubusercontent.com/airbytehq/airbyte/master/run-ab-platform.sh | bash
+
+bash <(curl -s https://raw.githubusercontent.com/airbytehq/airbyte/master/run-ab-platform.sh)
