@@ -11,7 +11,6 @@ for file in $all_files; do
   curl "$BASE_URL/$file" > "airbyte/$file"
 done
 
-echo "Running ab-platform"
+echo "Changing directory to ./airbyte and running ab-platform"
 cd airbyte
 bash run-ab-platform.sh
-cd -
