@@ -12,5 +12,6 @@ for file in $all_files; do
 done
 
 echo "Running ab-platform"
-cd $(airbyte $0)
+cd airbyte
 bash run-ab-platform.sh
+cd -
